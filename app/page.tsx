@@ -1,0 +1,26 @@
+"use client";
+import Link from "next/link";
+import { ArrowUpRight, Sparkles, ShieldCheck, Smartphone, Layers3 } from "lucide-react";
+import { useLanguage } from "@/components/language";
+export default function Home() {
+ const {lang}=useLanguage(); const vi=lang==="vi";
+ return <main>
+  <section className="hero shell"><div className="hero-copy">
+   <div className="eyebrow"><span className="pulse"/> {vi?"NHÀ PHÁT TRIỂN ỨNG DỤNG ĐỘC LẬP":"INDEPENDENT APP DEVELOPER STUDIO"}</div>
+   <h1>{vi?<>Công nghệ hữu ích.<br/><span>Thiết kế có chủ đích.</span></>:<>Useful technology.<br/><span>Thoughtfully made.</span></>}</h1>
+   <p className="hero-lead">{vi?"JollyD App phát triển những ứng dụng di động trực quan, thiết thực, giúp việc học tập và các công việc hằng ngày trở nên đơn giản hơn.":"JollyD App builds focused, intuitive mobile apps that make learning and everyday tasks feel simpler."}</p>
+   <div className="hero-actions"><Link className="button button-primary" href="/apps">{vi?"Khám phá ứng dụng":"Explore our apps"} <ArrowUpRight size={17}/></Link><Link className="button button-ghost" href="/about">{vi?"Về JollyD App":"Meet the studio"}</Link></div>
+   <div className="hero-proof"><span><ShieldCheck size={15}/>{vi?"Lấy người dùng làm trọng tâm":"User-first approach"}</span><span><Sparkles size={15}/>{vi?"Không ngừng cải tiến":"Continuous improvement"}</span></div>
+  </div>
+  <div className="hero-art"><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="glass-card main-glass"><div className="mini-top"><span className="mini-dot"/><span className="mini-dot"/><span className="mini-dot"/></div><div className="app-symbol">A1</div><div className="mock-title">{vi?"Học tập rõ ràng hơn.":"Learn with clarity."}</div><div className="mock-line wide"/><div className="mock-line"/><div className="mock-progress"><span/></div><div className="mock-bottom"><span>JollyD APP</span><b>01 / 04</b></div></div>
+   <div className="float-chip chip-top"><span className="chip-icon"><Smartphone size={16}/></span><span><b>{vi?"Ưu tiên di động":"Mobile first"}</b><small>{vi?"Thiết kế cho đời sống":"Designed for real life"}</small></span></div>
+   <div className="float-chip chip-bottom"><span className="chip-icon violet"><Layers3 size={16}/></span><span><b>{vi?"Luôn phát triển":"Built to evolve"}</b><small>{vi?"Tốt hơn qua mỗi bản cập nhật":"Better with every update"}</small></span></div>
+  </div><div className="hero-index"><span>01</span><i/>{vi?"SẢN PHẨM SỐ CÓ GIÁ TRỊ":"DIGITAL PRODUCTS WITH PURPOSE"}</div></section>
+  <section className="section shell"><div className="section-heading"><div><div className="eyebrow">{vi?"SẢN PHẨM TIÊU BIỂU":"SELECTED PRODUCTS"}</div><h2>{vi?<>Công cụ nhỏ. <span>Giá trị thật.</span></>:<>Small tools. <span>Real value.</span></>}</h2></div><Link className="text-link" href="/apps">{vi?"Xem tất cả ứng dụng":"View all apps"} <ArrowUpRight size={16}/></Link></div>
+   <div className="app-grid"><Link href="/apps" className="app-card"><div className="app-card-top"><div className="app-icon">A1</div><span className="app-tag">{vi?"Sản phẩm đầu tiên":"First release"}</span></div><div className="eyebrow">EDUCATION · ANDROID</div><h3>Ôn Thi GPLX A1</h3><p>{vi?"Ứng dụng hỗ trợ học và ôn luyện lý thuyết thi giấy phép lái xe A1, luyện tập câu hỏi và theo dõi tiến độ học tập.":"A learning companion to review A1 motorcycle driving theory, practice questions, and track study progress."}</p><div className="card-link">{vi?"Khám phá ứng dụng":"Discover app"} <ArrowUpRight size={16}/></div></Link>
+   <Link href="/apps" className="app-card muted-card"><div className="app-card-top"><div className="app-icon secondary-icon">✳</div><span className="app-tag">{vi?"Đang phát triển":"In development"}</span></div><div className="eyebrow">{vi?"SẮP RA MẮT":"COMING NEXT"}</div><h3>{vi?"Những ứng dụng hữu ích khác":"More useful apps"}</h3><p>{vi?"JollyD App đang phát triển thêm những ý tưởng mới về các công cụ đơn giản, tập trung và thiết thực.":"We are exploring new ideas for simple, focused tools. Check back as the studio grows."}</p></Link></div>
+  </section>
+  <section className="statement"><div className="shell statement-inner"><div className="eyebrow">{vi?"QUAN ĐIỂM CỦA CHÚNG TÔI":"OUR POINT OF VIEW"}</div><h2>{vi?<>Phần mềm tốt nên <span>rõ ràng, dễ dùng và hữu ích.</span></>:<>Good software should feel <span>clear, calm, and useful.</span></>}</h2><p>{vi?"Chúng tôi tin rằng trải nghiệm số tốt sẽ loại bỏ những rào cản không cần thiết, tôn trọng thời gian và ngày càng hoàn thiện.":"We believe the best digital experiences remove friction, respect people’s time, and keep getting better."}</p><Link href="/about" className="text-link">{vi?"Tìm hiểu cách chúng tôi làm việc":"More about our approach"} <ArrowUpRight size={16}/></Link></div></section>
+  <section className="shell contact-strip"><div><div className="eyebrow">{vi?"BẠN CẦN HỖ TRỢ?":"HAVE A QUESTION?"}</div><h2>{vi?"JollyD App luôn sẵn sàng lắng nghe.":"We’re here to help."}</h2><p>{vi?"Gửi câu hỏi, báo lỗi hoặc chia sẻ ý tưởng với chúng tôi.":"Need support or want to share an idea? We’d love to hear from you."}</p></div><Link className="button button-primary" href="/support">{vi?"Liên hệ hỗ trợ":"Contact support"} <ArrowUpRight size={17}/></Link></section>
+ </main>;
+}
