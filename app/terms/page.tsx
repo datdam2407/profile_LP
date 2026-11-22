@@ -20,16 +20,20 @@ export default function Terms() {
           "Thương hiệu JollyD App, giao diện, mã nguồn và các tài nguyên do chúng tôi phát triển thuộc quyền sở hữu của JollyD App hoặc các bên cấp phép hợp pháp. Người dùng chỉ được phép sử dụng cho mục đích cá nhân, phi thương mại.",
         ],
         [
-          "4. Tuyên bố miễn trừ",
+          "4. Bản quyền và gỡ bỏ nội dung (DMCA)",
+          "Chúng tôi tôn trọng quyền sở hữu trí tuệ của các tác giả và chủ sở hữu bản quyền. Nội dung hình nền trong Kuro Anime Live Wallpapers 4K được cung cấp nhằm mục đích cá nhân hóa thiết bị cá nhân. Nếu bạn là chủ sở hữu bản quyền hoặc đại diện hợp pháp và phát hiện hình ảnh, video hoặc nội dung nào vi phạm bản quyền của bạn, vui lòng gửi email đến damtiendat24072000@gmail.com kèm thông tin nhận diện nội dung để chúng tôi xem xét và gỡ bỏ kịp thời.",
+        ],
+        [
+          "5. Tuyên bố miễn trừ",
           "Các ứng dụng được cung cấp theo trạng thái hiện có nhằm hỗ trợ cá nhân hóa thiết bị, học tập và tra cứu thông tin tham khảo. Chúng tôi luôn nỗ lực duy trì tính ổn định nhưng không đảm bảo dịch vụ không bao giờ gián đoạn.",
         ],
         [
-          "5. Giới hạn trách nhiệm",
+          "6. Giới hạn trách nhiệm",
           "Trong phạm vi tối đa được pháp luật hiện hành cho phép, JollyD App không chịu trách nhiệm đối với các thiệt hại gián tiếp hoặc phát sinh ngoài tầm kiểm soát hợp lý khi bạn sử dụng ứng dụng hoặc nội dung bên thứ ba.",
         ],
         [
-          "6. Thay đổi và liên hệ",
-          "Chúng tôi có thể cập nhật điều khoản sử dụng theo từng phiên bản ứng dụng mới. Mọi câu hỏi xin vui lòng liên hệ: damtiendat24072000@gmail.com.",
+          "7. Thay đổi và liên hệ",
+          "Chúng tôi có thể cập nhật điều khoản sử dụng theo từng phiên bản ứng dụng mới. Mọi câu hỏi hoặc yêu cầu gỡ bỏ nội dung xin vui lòng liên hệ: damtiendat24072000@gmail.com.",
         ],
       ]
     : [
@@ -46,16 +50,20 @@ export default function Terms() {
           "The JollyD App brand, user interfaces, source code, and proprietary assets belong to JollyD App or their respective licensors. Applications are licensed for personal, non-commercial use only.",
         ],
         [
-          "4. Disclaimers",
+          "4. Copyright & content removal (DMCA)",
+          "We respect the intellectual property rights of creators and rights holders. Wallpapers in Kuro Anime Live Wallpapers 4K are provided for personal device customization. If you are a copyright owner or authorized representative and believe any image, video, or content infringes your copyright, please email damtiendat24072000@gmail.com with details identifying the material so we can review and remove it promptly.",
+        ],
+        [
+          "5. Disclaimers",
           "Our applications are provided on an “as is” basis for personal device customization, learning, and reference. While we work to keep services reliable, uninterrupted availability cannot be guaranteed.",
         ],
         [
-          "5. Limitation of liability",
+          "6. Limitation of liability",
           "To the fullest extent permitted by applicable law, JollyD App is not liable for indirect or incidental damages arising from your use of the applications or third-party services.",
         ],
         [
-          "6. Changes and contact",
-          "We may update these terms as our applications evolve. If you have questions, please contact us at damtiendat24072000@gmail.com.",
+          "7. Changes and contact",
+          "We may update these terms as our applications evolve. For questions or content removal requests, please contact us at damtiendat24072000@gmail.com.",
         ],
       ];
 
