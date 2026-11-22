@@ -22,10 +22,10 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
     {
       title: "1. Giới thiệu",
       paragraphs: [
-        "Chào mừng bạn đến với các ứng dụng được phát triển và phát hành bởi JollyD App.",
-        "Chúng tôi phát triển các ứng dụng di động nhằm hỗ trợ học tập, tra cứu thông tin, nâng cao kiến thức và phục vụ những nhu cầu thiết thực trong cuộc sống.",
-        "Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng, lưu trữ, chia sẻ và bảo vệ thông tin khi bạn sử dụng các ứng dụng do chúng tôi phát triển.",
-        "Chính sách áp dụng cho các ứng dụng có liên kết hoặc dẫn chiếu đến chính sách này. Tùy theo chức năng và công nghệ được tích hợp, mỗi ứng dụng có thể có những hoạt động xử lý dữ liệu khác nhau. Những thông tin cụ thể sẽ được mô tả trong phần thông tin quyền riêng tư riêng của từng ứng dụng."
+        "Chào mừng bạn đến với các ứng dụng được phát triển và phát hành bởi JollyD App, bao gồm Kuro Anime Live Wallpapers 4K và Ôn Thi GPLX A1.",
+        "Chúng tôi phát triển các ứng dụng di động nhằm hỗ trợ cá nhân hóa thiết bị, học tập, tra cứu thông tin, nâng cao kiến thức và phục vụ những nhu cầu thiết thực trong cuộc sống hằng ngày.",
+        "Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng, lưu trữ, chia sẻ và bảo vệ thông tin khi bạn sử dụng các ứng dụng do JollyD App phát triển (liên hệ hỗ trợ: damtiendat24072000@gmail.com).",
+        "Chính sách áp dụng cho tất cả các ứng dụng thuộc JollyD App có liên kết hoặc dẫn chiếu đến trang này, bao gồm Kuro Anime Live Wallpapers 4K và Ôn Thi GPLX A1. Tùy theo chức năng và công nghệ được tích hợp, mỗi ứng dụng có thể có những hoạt động xử lý dữ liệu khác nhau."
       ]
     },
     {
@@ -73,6 +73,18 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
             "Thông tin tương tác với ứng dụng.",
             "Dữ liệu chẩn đoán, báo lỗi và hiệu suất."
           ]
+        },
+        {
+          title: "2.4. Quyền thiết bị và tính năng hình nền",
+          paragraphs: [
+            "Đối với các ứng dụng hình nền và cá nhân hóa như Kuro Anime Live Wallpapers 4K, ứng dụng sử dụng các quyền hệ thống cần thiết để cung cấp tính năng cốt lõi:",
+            "Ứng dụng không truy cập, quét, đọc hay thu thập ảnh cá nhân, thư viện ảnh riêng tư hoặc tệp cá nhân trên thiết bị của bạn."
+          ],
+          bullets: [
+            "Đặt hình nền (Set Wallpaper / dịch vụ hình nền động): Cho phép áp dụng hình nền tĩnh 4K hoặc hình nền video động lên màn hình chính và/hoặc màn hình khóa theo thao tác của bạn.",
+            "Kết nối mạng để tải nội dung: Tải hình ảnh và video hình nền từ máy chủ ngoài khi bạn xem trước hoặc cài đặt hình nền.",
+            "Lưu trữ nội dung (nếu bạn chủ động chọn tải về): Chỉ lưu tệp hình nền do ứng dụng cung cấp vào bộ nhớ thiết bị theo yêu cầu của bạn."
+          ]
         }
       ],
       paragraphsAfter: [
@@ -103,18 +115,18 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
     {
       title: "4. Quảng cáo và dịch vụ của bên thứ ba",
       paragraphs: [
-        "Một số ứng dụng của JollyD App có thể tích hợp dịch vụ quảng cáo hoặc các công cụ của bên thứ ba, chẳng hạn như Google AdMob, Google Mobile Ads SDK hoặc các dịch vụ tương tự.",
+        "Một số ứng dụng của JollyD App có thể tích hợp dịch vụ quảng cáo, phân tích và chẩn đoán lỗi của bên thứ ba, chẳng hạn như Google AdMob (Google Mobile Ads SDK) và Firebase (bao gồm Firebase Analytics và Firebase Crashlytics) hoặc các dịch vụ tương tự.",
         "Các nhà cung cấp này có thể xử lý một số thông tin như:"
       ],
       bullets: [
         "Địa chỉ IP.",
         "Mã nhận dạng quảng cáo.",
-        "Thông tin thiết bị.",
-        "Dữ liệu tương tác với quảng cáo.",
-        "Dữ liệu chẩn đoán và phòng chống gian lận."
+        "Thông tin thiết bị và phiên bản ứng dụng.",
+        "Dữ liệu tương tác với ứng dụng và quảng cáo.",
+        "Dữ liệu chẩn đoán, sự cố (crash logs) và phòng chống gian lận."
       ],
       paragraphsAfter: [
-        "Dữ liệu có thể được sử dụng để cung cấp quảng cáo, đo lường hiệu quả quảng cáo, phân tích và bảo vệ dịch vụ.",
+        "Dữ liệu có thể được sử dụng để cung cấp quảng cáo, đo lường hiệu quả quảng cáo, phân tích mức độ ổn định, xử lý lỗi và bảo vệ dịch vụ.",
         "Việc xử lý dữ liệu của các nhà cung cấp bên thứ ba tuân theo chính sách quyền riêng tư và lựa chọn quyền riêng tư tương ứng của họ.",
         "Không phải tất cả ứng dụng của JollyD App đều sử dụng quảng cáo hoặc cùng một nhà cung cấp dịch vụ."
       ],
@@ -122,6 +134,10 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
         {
           label: "Google Mobile Ads",
           href: "https://developers.google.com/admob/android/privacy/play-data-disclosure"
+        },
+        {
+          label: "Quyền riêng tư và bảo mật của Firebase",
+          href: "https://firebase.google.com/support/privacy"
         },
         {
           label: "Chính sách quyền riêng tư của Google",
@@ -227,10 +243,8 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
     {
       title: "11. Quyền riêng tư của trẻ em",
       paragraphs: [
-        "Các ứng dụng có thể có đối tượng người dùng và yêu cầu độ tuổi khác nhau.",
-        "Chúng tôi không chủ động yêu cầu trẻ em cung cấp dữ liệu cá nhân ngoài phạm vi cần thiết và phù hợp với chức năng, độ tuổi cũng như quy định pháp luật áp dụng.",
-        "Đối với ứng dụng hướng đến trẻ em hoặc có khả năng được trẻ em sử dụng, các chức năng, quảng cáo và hoạt động xử lý dữ liệu sẽ cần được xem xét theo các yêu cầu pháp lý và chính sách nền tảng tương ứng.",
-        "Nếu phát hiện dữ liệu được thu thập không phù hợp, vui lòng liên hệ với chúng tôi để được xem xét và xử lý."
+        "Các ứng dụng của chúng tôi không hướng đến trẻ em dưới 13 tuổi và chúng tôi không cố ý thu thập dữ liệu cá nhân từ trẻ em dưới 13 tuổi.",
+        "Nếu bạn là phụ huynh hoặc người giám hộ và phát hiện trẻ em dưới 13 tuổi đã cung cấp dữ liệu cá nhân cho chúng tôi, vui lòng liên hệ qua email tại mục 12 để chúng tôi xem xét và xóa thông tin kịp thời."
       ]
     },
     {
@@ -261,10 +275,10 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
     {
       title: "1. Introduction",
       paragraphs: [
-        "Welcome to the applications developed and published by JollyD App.",
-        "We develop mobile applications to support learning, information lookup, knowledge building, and practical everyday needs.",
-        "This Privacy Policy explains how we collect, use, store, share, and protect information when you use applications we develop.",
-        "This policy applies to applications that link to or refer to it. Each application may process data differently depending on its features and integrated technologies. App-specific privacy information will describe those details."
+        "Welcome to the applications developed and published by JollyD App, including Kuro Anime Live Wallpapers 4K and Ôn Thi GPLX A1.",
+        "We develop mobile applications for device personalization, learning, information lookup, knowledge building, and practical everyday needs.",
+        "This Privacy Policy explains how we collect, use, store, share, and protect information when you use applications developed by JollyD App (contact: damtiendat24072000@gmail.com).",
+        "This policy applies to all JollyD App applications that link to or reference it, including Kuro Anime Live Wallpapers 4K and Ôn Thi GPLX A1. Each application may process data differently depending on its features and integrated technologies."
       ]
     },
     {
@@ -312,6 +326,18 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
             "Information about interactions with the application.",
             "Diagnostics, crash reports, and performance data."
           ]
+        },
+        {
+          title: "2.4. Device permissions and wallpaper features",
+          paragraphs: [
+            "For personalization and wallpaper apps such as Kuro Anime Live Wallpapers 4K, the application uses only the system permissions required to deliver its core wallpaper functionality:",
+            "The application does not access, scan, read, or collect your personal photos, private media library, or private device files."
+          ],
+          bullets: [
+            "Set Wallpaper (SET_WALLPAPER / Live Wallpaper service): Used solely to apply 4K static or live video wallpapers to your Home screen and/or Lock screen when you choose to set one.",
+            "Network access to load wallpapers: Downloads wallpaper images and videos from external servers when you browse, preview, or apply wallpapers.",
+            "Device storage (if you choose to save a wallpaper): Stores only the wallpaper media provided by the app when explicitly initiated by you."
+          ]
         }
       ],
       paragraphsAfter: [
@@ -342,18 +368,18 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
     {
       title: "4. Advertising and third-party services",
       paragraphs: [
-        "Some JollyD App applications may integrate advertising services or third-party tools, such as Google AdMob, Google Mobile Ads SDK, or similar services.",
+        "Some JollyD App applications may integrate third-party advertising, analytics, and crash-reporting SDKs, such as Google AdMob (Google Mobile Ads SDK) and Firebase (including Firebase Analytics and Firebase Crashlytics), or similar services.",
         "These providers may process information such as:"
       ],
       bullets: [
         "IP address.",
         "Advertising identifier.",
-        "Device information.",
-        "Interactions with ads.",
-        "Diagnostics and fraud-prevention data."
+        "Device information and app version.",
+        "Interactions with the app and ads.",
+        "Diagnostics, crash logs, and fraud-prevention data."
       ],
       paragraphsAfter: [
-        "This data may be used to serve ads, measure ad effectiveness, analyze, and protect the services.",
+        "This data may be used to serve ads, measure ad effectiveness, monitor app stability, fix crashes, analyze usage, and protect the services.",
         "Third-party providers process data under their own privacy policies and privacy controls.",
         "Not all JollyD App applications use advertising or the same service providers."
       ],
@@ -361,6 +387,10 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
         {
           label: "Google Mobile Ads",
           href: "https://developers.google.com/admob/android/privacy/play-data-disclosure"
+        },
+        {
+          label: "Firebase Privacy and Security",
+          href: "https://firebase.google.com/support/privacy"
         },
         {
           label: "Google Privacy Policy",
@@ -468,10 +498,8 @@ const sections: Record<"vi" | "en", PrivacySection[]> = {
     {
       title: "11. Children’s privacy",
       paragraphs: [
-        "Applications may have different intended audiences and age requirements.",
-        "We do not knowingly ask children to provide personal data beyond what is necessary and appropriate for the app’s features, the relevant age group, and applicable law.",
-        "For applications directed to children or that may be used by children, app features, advertising, and data processing must be reviewed against applicable legal requirements and platform policies.",
-        "If you become aware of data being collected inappropriately, please contact us so we can review and address it."
+        "Our applications are not directed to children under 13, and we do not knowingly collect personal data from children under 13.",
+        "If you are a parent or guardian and believe that a child under 13 has provided personal data to us, please contact us using the email in Section 12 so we can review and promptly remove the information."
       ]
     },
     {
@@ -520,7 +548,7 @@ export default function Privacy() {
         )}
       </h1>
       <p className="page-intro">
-        {vi ? "JollyD App – Developer · Ngày cập nhật: 03/11/2026" : "JollyD App – Developer · Last updated: November 3, 2026"}
+        {vi ? "JollyD App – Developer · Ngày cập nhật: 22/11/2026" : "JollyD App – Developer · Last updated: November 22, 2026"}
       </p>
       {content.map((section) => (
         <section key={section.title}>
